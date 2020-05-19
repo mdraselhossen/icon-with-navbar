@@ -1,0 +1,31 @@
+body {margin:50px;}
+
+.icon-bar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  margin-top: 200px;
+  border: 2px solid blue;
+  border-radius: 20px;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+
+}
+
+.icon-bar a:hover {
+  background-color: lightgray;
+  color: black;
+}
+.active{
+	background-color: gray;
+	color:black;
+}
